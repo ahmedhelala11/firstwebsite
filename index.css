@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    width: 100%;
+    height: 730px;
+    background-image: url("bbbb.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-right{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: end;
+}
+.nav-right .logo{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.nav-right .logo img{
+    width: 140px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    transition: all 0.5s ease-in;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+.container .lists{
+    width:550px ;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.lists ul{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    list-style: none;
+    transition: all 0.5s ease-in;
+}
+.lists ul:hover{
+    transform: scale(1.1);
+}
+.lists ul li{
+    font-size: 20px;
+    color: rgb(133, 156, 156);
+    margin: 8px;
+    padding: 0px 10px 20px 10px;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+}
+.lists ul li:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+.text{
+    
+border-bottom: 2px solid rgb(175, 166, 153);
+}
+
+.nav-right .nav-left{
+    width: 430px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+.nav-left img{
+    width: 65px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 26px;
+}
+
+.nav-left  p{
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 33px;
+    right: 43px;
+    transition: 0.5s ease-in;
+}
+.nav-left  p:hover{
+    transform: scale(1.1);
+}
+/* end nav */
+.container .container2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container2 .part2{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.part2 .img1{
+    width: 580px;
+}
+.part2 .img2{
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    left: 110px;
+}
+.part2 .img3{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 280px;
+}
+.part2 .img4{
+    width: 1500px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    bottom: 60px;
+    right: 250px;
+}
+.container2 .part1{
+    width: 700px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.part1 h1{
+    height: 300px;
+    font-size: 35px;
+    position: absolute;
+    top: 200px;
+    right: 2px;
+    font-size: 50PX;
+    color: rgb(110, 119, 119);
+    transition: all 0.5s ease-in;
+}
+.part1 h1:hover{
+    transform: scale(1.1);
+}
+span{
+    color: blueviolet;
+    transition: all 0.5s ease-in;
+}
+span:hover{
+    transform: scale(1.1);
+}
+.part1 p{
+    font-size: 22px;
+    height: 100px;
+    position: absolute;
+    top: 280px;
+    right: 153px;
+    color: rgb(91, 129, 146);
+}
+/* end nav man */
+
+.big-line{
+    width: 100%;
+    height: 1850px;
+    margin-top: 150px;
+
+}
+.big-line{
+background-image: url("second_section_.png");
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: top;
+background-size:1100px 850px;
+}
+.big-line .sec-1{
+    width: 100%;
+    height: 605px;
+}
+
+.sec-1 .first{
+    width: 650px;
+    height: 300px;
+    position: relative;
+}
+.first img{
+    width: 300px;
+    position: absolute;
+    left: 30px;
+}
+.first h1{
+font-size: 30px;
+position: absolute;
+left: 40px;
+bottom: 20px;
+color: rgb(133, 156, 156);
+transition: all 0.5s ease-in;
+}
+.first h1:hover{
+    transform: scale(1.1);
+}
+.first p{
+    font-size: 20px;
+    position: absolute;
+    left: 25px;
+    top: 290px;
+    color: rgb(118, 133, 133);
+}
+
+.second-2{
+    width: 950px;
+    height: 300px;
+    position: relative;
+}
+.second-2 img{
+    width: 300px;
+    position: absolute;
+    right: 100px;
+
+}
+.second-2 h1{
+font-size: 30px;
+position: absolute;
+right: 110px;
+bottom: 30px;
+color: rgb(133, 150, 150);
+transition: all 0.5s ease-in;
+}
+.second-2 h1:hover{
+    transform: scale(1.1);
+}
+
+.second-2 p{
+    font-size: 20px;
+position: absolute;
+right: 50px;
+top: 280px;
+color: rgb(118, 133, 133);
+}
+/* end it */
+.sec-2{
+    margin-top: 75px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.sec-2 .div-1{
+    width: 600px;
+    height: 100%;
+    position: relative;
+}
+.div-1 img{
+    width: 500px;
+    height: 590px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.div-1 p{
+    width: 400px;
+    height: 50px;
+font-size: 30px;
+position: absolute;
+top: 200px;
+left: 130px;
+display: flex;
+justify-content: start;
+align-items: end;
+color: rgb(255, 255, 255);
+}
+
+
+.div-1 h1{
+    font-size: 37px;
+    width: 400px;
+    height: 60px;
+    position: absolute;
+    top: 260px;
+    left: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+    transition: all 0.5s ease-in;
+    }
+    .div-1 h1:hover{
+        transform: scale(1.1);
+    }
+
+    .div-2{
+        width: 430px;
+        height: 100%;
+        position: relative;
+    }
+    .div-2 img{
+        width: 400px;
+        position: absolute;
+        top: 22%;
+        right: 10px;
+    }
+
+    .div-2 h1{
+        font-size: 37px;
+        position: absolute;
+        bottom: 170px;
+        width: 300px;
+        height: 50px;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        color: rgb(105, 100, 100);
+        transition: all 0.5s ease-in;
+}
+.div-2 h1:hover{
+    transform: scale(1.1);
+}
+
+    .div-2 p{
+        font-size: 20px;
+        position: absolute;
+        bottom: 100px;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(87, 105, 105);
+}
+    
+
+    .first-image{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .first-image .igggm1{
+        width: 350px;
+        height: 100%;
+    }
+    .igggm1 img{
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    .first-image .igggm3{
+        width: 350px;
+        height: 100%;
+    }
+    .igggm3 img{
+        width: 270px;
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+    .first-image .igggm2{
+        width: 500px;
+        height: 100%;
+        position: relative;
+        
+    }
+
+    .igggm2 img{
+        width: 490px;
+        position: absolute;
+        top: 190px;
+    }
+
+    .igggm2 h1{
+        font-size: 30px;
+        width: 400px;
+        height: 60px;
+        position: absolute;
+        bottom: 10px;
+        left: 70px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        color: rgb(84, 87, 87);
+        
+    }
+    .igggm2 h1:hover{
+        transform: scale(1.1);
+    }
+    .igggm2 p{
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 100%;
+        position: absolute;
+        left: 160px;
+        top: 50px;
+        color: rgb(82, 114, 114);
+        transition: all 0.5s ease-in;
+    }
+    .igggm2 p:hover{
+        transform: scale(1.1);
+    }
+    .next a{
+        text-decoration: none;
+        display: flex;
+        justify-content: end;
+        font-size: 30px;
+        color: rgb(148, 143, 143);
+        font-size: 30px;
+    }
+.next a .fa-angle-right{
+    display: flex;
+    justify-content: end;
+    font-size: 40px;
+    position: relative;
+    top: 120px;
+    left: 30px;
+    }
+
+    .preview a{
+        text-decoration: none;
+        display: flex;
+        justify-content: end;
+        font-size: 30px;
+        color: rgb(148, 143, 143);
+        font-size: 30px;
+    }
+    .preview a .fa-chevron-left{
+        display: flex;
+        justify-content: end;
+        font-size: 40px;
+        position: relative;
+        top: 123px;
+        left: 0px;
+    }
+    /* نهايه الجزء اللي في النص كله */
+    /* بدايه ال footer */
+    .body-end{
+        margin-top: 300px;
+        width: 100%;
+        height: 600px;
+        background-image: url("Group\ 1131.png");
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position:center;
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+        flex-direction: row-reverse;
+    }
+
+    .body-end .twinz{
+        width: 700px;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        position: relative;
+    }
+
+    .twinz img{
+        width: 100%;
+        position: absolute;
+        left: 0px;
+    }
+
+    .body-end .contentend{
+        width: 500px;
+        height: 300px;
+    }
+
+    .contentend .appple{
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .appple .app-store{
+        width: 160px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-color: rgb(253, 255, 255);
+        border-radius: 20px;
+        padding: 10px 10px 10px 10px;
+        margin: 20px;
+    }
+.app-store img{
+    width: 30px;
+}
+
+.app-store h1{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+}
+.app-store h1:hover{
+    transform: scale(1.1);
+}
+.app-store p{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.contentend .iconns{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    position: relative;
+    bottom: 30px;
+}
+.iconns img{
+    width: 35px;
+    transition: all 0.5s ease-in;
+}
+.iconns img:hover{
+    transform: scale(1.1);
+}
+
+.contentend .morelist{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 500px;
+    height: 30px;
+    margin: 10px;
+}
+.morelist ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-left: 47px;
+}
+.morelist ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.morelist ul li a{
+    
+    width: 130px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    transition: all 0.5s ease-in;
+}
+.morelist ul li a:hover{
+    transform: scale(1.1);
+    color: black;
+}
+
